@@ -36,6 +36,7 @@ from commands.bdaylist import *
 from commands.settime import *
 from commands.swap import *
 from commands.accept import *
+from commands.dissapointment import *
 
 def resetModules():
   for mod in modules:
@@ -104,6 +105,7 @@ modules = [
 'commands.settime',
 'commands.swap',
 'commands.accept',
+'commands.encourage', 
 ]
 
 commands = {
@@ -151,6 +153,7 @@ commands = {
   'settime':settime,
   'swap':swap,
   'accept':accept,
+  'encourage':encourage
   }
 
 swear=40
